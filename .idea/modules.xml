@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PAselenium.iml" filepath="$PROJECT_DIR$/PAselenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PAselenium_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PAselenium_main.iml" group="PAselenium" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PAselenium_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PAselenium_test.iml" group="PAselenium" />
+    </modules>
+  </component>
+</project>
