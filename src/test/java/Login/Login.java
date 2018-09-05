@@ -30,18 +30,18 @@ public class Login {
 
         wd.findElement(By.id("input-username")).click();
         wd.findElement(By.id("input-username")).clear();
-        wd.findElement(By.id("input-username")).sendKeys("userdata@test.com");
+        wd.findElement(By.id("input-username")).sendKeys("1E589357E2581A27");
         wd.findElement(By.id("input-pwd")).click();
         wd.findElement(By.id("input-pwd")).clear();
-        wd.findElement(By.id("input-pwd")).sendKeys("Apassword1!");
+        wd.findElement(By.id("input-pwd")).sendKeys("31551FF077352B0459256A509C8CE45CB41566D69C8FB5555B4711BD66214326");
         wd.findElement(By.id("submit-button")).click();
-        wd.findElement(By.cssSelector("div.info")).click();
+       /* wd.findElement(By.cssSelector("div.info")).click();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         wd.findElement(By.xpath("//div[3]/div[1]/div[3]/div[1]/div[2]/div[1]")).click();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         wd.findElement(By.cssSelector("div.popup-header.modal-header")).click();
         wd.findElement(By.xpath("//div[@class='button-container']//button[.='Close']")).click();
-        wd.findElement(By.xpath("//div[@class='header-right']/div[3]/div/div[1]")).click();
+        wd.findElement(By.xpath("//div[@class='header-right']/div[3]/div/div[1]")).click();*/
         wd.findElement(By.cssSelector("div.dropdown-item.logoff")).click();
         wd.findElement(By.id("input-pwd")).click();
         wd.findElement(By.id("input-pwd")).sendKeys("\\undefined");
